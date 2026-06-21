@@ -5,7 +5,7 @@ public class StudentRecords {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        String fullname, indexnumber, department, level;
+        String fullname, indexnumb, department, level;
         double gpa;
         int age;
 
@@ -13,7 +13,7 @@ public class StudentRecords {
         input.next();
         fullname = input.nextLine();
         System.out.println("Enter Index Number:");
-        indexnumber = input.next();
+        indexnumb = input.next();
         System.out.println("Enter Department:");
         input.next();
         input.next();
@@ -30,7 +30,7 @@ public class StudentRecords {
         System.out.println("\n===== STUDENT PROFILE =====");
         System.out.println("Full Name: " + fullname);
         System.out.println("Age: " + age);
-        System.out.println("Index Number: " + indexnumber);
+        System.out.println("Index Number: " + indexnumb);
         System.out.println("Department: " + department);
         System.out.println("Level: " + level);
         System.out.println("GPA: " + gpa);
